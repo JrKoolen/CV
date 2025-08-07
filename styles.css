@@ -368,6 +368,29 @@ body {
     padding-bottom: 2rem;
 }
 
+.project-stakeholder {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.project-stakeholder a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.project-stakeholder a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .project-header.rockstar-header {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/rockstars.jpg') center center/contain no-repeat !important;
 }
