@@ -1123,15 +1123,55 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
+        padding: 0 15px;
     }
 
     .hero-title {
         font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero-info {
+        margin-top: 1.5rem;
+    }
+
+    .hero-info p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .hero-image {
+        order: -1;
+        margin-bottom: 1rem;
+    }
+
+    .profile-placeholder {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 1rem auto;
+    }
+
+    .profile-info {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .profile-name {
+        font-size: 1.3rem;
+    }
+
+    .profile-location {
+        font-size: 0.9rem;
     }
 
     .hero-buttons {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 1rem;
     }
 
     .timeline {
@@ -1171,6 +1211,37 @@ body {
     .soft-skills-grid,
     .internships-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .study-card,
+    .project-card,
+    .personality-card,
+    .hobby-card,
+    .internship-card {
+        padding: 1.5rem;
+    }
+
+    .study-icon,
+    .personality-icon,
+    .hobby-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .internship-header {
+        padding: 1.5rem;
+    }
+
+    .internship-content {
+        padding: 1.5rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
     }
 }
 
@@ -1181,28 +1252,99 @@ body {
 
     .hero-title {
         font-size: 2rem;
+        line-height: 1.1;
     }
 
     .hero-subtitle {
         font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-info p {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .profile-placeholder {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-name {
+        font-size: 1.2rem;
+    }
+
+    .profile-location {
+        font-size: 0.85rem;
     }
 
     .btn {
         padding: 10px 20px;
         font-size: 0.9rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
     }
 
     .section {
-        padding: 3rem 0;
+        padding: 2.5rem 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
     }
 
     .study-card,
     .project-card,
     .personality-card,
     .hobby-card,
-    .skill-item,
-    .soft-skill-card,
     .internship-card {
-        padding: 1.5rem;
+        padding: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .study-card h3,
+    .project-card h3,
+    .personality-card h3,
+    .hobby-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .study-description,
+    .project-content p,
+    .personality-card p,
+    .hobby-card p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .skill-tag,
+    .tech-tag,
+    .hobby-tag {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+        margin: 0.2rem;
+    }
+
+    .nav-logo h2 {
+        font-size: 1.2rem;
+    }
+
+    .nav-menu {
+        top: 60px;
+        padding: 1.5rem 0;
+    }
+
+    .nav-menu li {
+        margin: 0.5rem 0;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
     }
 } 
