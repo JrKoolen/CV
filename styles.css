@@ -298,6 +298,13 @@ body {
     color: #1e293b;
 }
 
+.study-institution {
+    color: #2563eb;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
 .study-period {
     color: #64748b;
     font-size: 0.9rem;
