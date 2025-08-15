@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Curriculum Vitae (CV)</title>
+    <title data-en="My Curriculum Vitae (CV)" data-nl="Mijn Curriculum Vitae (CV)">My Curriculum Vitae (CV)</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -13,34 +13,38 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Curriculum Vitae</h2>
+                <h2 data-en="Curriculum Vitae" data-nl="Curriculum Vitae">Curriculum Vitae</h2>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link" data-en="Home" data-nl="Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#studies" class="nav-link">Studies</a>
+                    <a href="#studies" class="nav-link" data-en="Studies" data-nl="Opleidingen">Studies</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#internships" class="nav-link">Internships</a>
+                    <a href="#internships" class="nav-link" data-en="Internships" data-nl="Stages">Internships</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link" data-en="Projects" data-nl="Projecten">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#personality" class="nav-link">Professional Characteristics</a>
+                    <a href="#personality" class="nav-link" data-en="Professional Characteristics" data-nl="Professionele Eigenschappen">Professional Characteristics</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#timeline" class="nav-link">Current Trajectory</a>
+                    <a href="#timeline" class="nav-link" data-en="Current Trajectory" data-nl="Huidige Traject">Current Trajectory</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#skills" class="nav-link" data-en="Skills" data-nl="Vaardigheden">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#hobbies" class="nav-link">Hobbies</a>
+                    <a href="#hobbies" class="nav-link" data-en="Hobbies" data-nl="Hobby's">Hobbies</a>
                 </li>
             </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -53,12 +57,12 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Welcome to My Curriculum Vitae</h1>
-                <p class="hero-subtitle">Comprehensive overview of my education, experience, and skills</p>
+                <h1 class="hero-title" data-en="Welcome to My Curriculum Vitae" data-nl="Welkom bij Mijn Curriculum Vitae">Welcome to My Curriculum Vitae</h1>
+                <p class="hero-subtitle" data-en="Comprehensive overview of my education, experience, and skills" data-nl="Uitgebreid overzicht van mijn opleiding, ervaring en vaardigheden">Comprehensive overview of my education, experience, and skills</p>
                 <div class="hero-info">
-                    <p><strong>Software Developer</strong> with a passion for cybersecurity and innovative solutions.</p>
-                    <p>Currently pursuing a <strong>Bachelor in Cybersecurity</strong> while gaining practical experience through internships at leading companies like ASML and DAF Trucks.</p>
-                    <p>Specialized in <strong>full-stack development</strong> with expertise in modern web technologies and database design.</p>
+                    <p data-en="<strong>Software Developer</strong> with a passion for cybersecurity and innovative solutions." data-nl="<strong>Software Developer</strong> met een passie voor cybersecurity en innovatieve oplossingen."><strong>Software Developer</strong> with a passion for cybersecurity and innovative solutions.</p>
+                    <p data-en="Currently pursuing a <strong>Bachelor in Cybersecurity</strong> while gaining practical experience through internships at leading companies like ASML and DAF Trucks." data-nl="Momenteel bezig met een <strong>Bachelor in Cybersecurity</strong> terwijl ik praktische ervaring opdoe via stages bij toonaangevende bedrijven zoals ASML en DAF Trucks.">Currently pursuing a <strong>Bachelor in Cybersecurity</strong> while gaining practical experience through internships at leading companies like ASML and DAF Trucks.</p>
+                    <p data-en="Specialized in <strong>full-stack development</strong> with expertise in modern web technologies and database design." data-nl="Gespecialiseerd in <strong>full-stack development</strong> met expertise in moderne webtechnologieën en database-ontwerp.">Specialized in <strong>full-stack development</strong> with expertise in modern web technologies and database design.</p>
                 </div>
             </div>
             <div class="hero-image">
@@ -67,7 +71,7 @@
                 </div>
                 <div class="profile-info">
                     <h3 class="profile-name">Jeroen Koolen</h3>
-                    <p class="profile-location">Netherlands, Eindhoven</p>
+                    <p class="profile-location" data-en="Netherlands, Eindhoven" data-nl="Nederland, Eindhoven">Netherlands, Eindhoven</p>
                 </div>
             </div>
         </div>
@@ -76,61 +80,52 @@
 
     <section id="studies" class="section">
         <div class="container">
-            <h2 class="section-title">Studies</h2>
+            <h2 class="section-title" data-en="Studies" data-nl="Opleidingen">Studies</h2>
             <div class="studies-grid">
                 <div class="study-card">
                     <div class="study-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Bachelor Cybersecurity</h3>
+                    <h3 data-en="Bachelor Cybersecurity" data-nl="Bachelor Cybersecurity">Bachelor Cybersecurity</h3>
                     <p class="study-institution">Fontys Hogeschool</p>
                     <p class="study-period">2025 - 2027</p>
-                    <p class="study-description">
-                        Advanced study of cybersecurity principles, ethical hacking, network security, 
-                        cryptography, and digital forensics. <strong>Currently pursuing.</strong>
-                    </p>
+                    <p class="study-description" data-en="Advanced study of cybersecurity principles, ethical hacking, network security, cryptography, and digital forensics. <strong>Currently pursuing.</strong>" data-nl="Geavanceerde studie van cybersecurity-principes, ethisch hacken, netwerkbeveiliging, cryptografie en digitale forensiek. <strong>Momenteel bezig.</strong>">Advanced study of cybersecurity principles, ethical hacking, network security, cryptography, and digital forensics. <strong>Currently pursuing.</strong></p>
                     <div class="study-skills">
-                        <span class="skill-tag">Network Security</span>
-                        <span class="skill-tag">Ethical Hacking</span>
-                        <span class="skill-tag">Cryptography</span>
-                        <span class="skill-tag">Digital Forensics</span>
+                        <span class="skill-tag" data-en="Network Security" data-nl="Netwerkbeveiliging">Network Security</span>
+                        <span class="skill-tag" data-en="Ethical Hacking" data-nl="Ethisch Hacken">Ethical Hacking</span>
+                        <span class="skill-tag" data-en="Cryptography" data-nl="Cryptografie">Cryptography</span>
+                        <span class="skill-tag" data-en="Digital Forensics" data-nl="Digitale Forensiek">Digital Forensics</span>
                     </div>
                 </div>
                 <div class="study-card">
                     <div class="study-icon">
                         <i class="fas fa-code"></i>
                     </div>
-                    <h3>Associate Degree Software Development</h3>
+                    <h3 data-en="Associate Degree Software Development" data-nl="Associate Degree Software Development">Associate Degree Software Development</h3>
                     <p class="study-institution">Fontys Hogeschool</p>
                     <p class="study-period">2023 - 2025</p>
-                    <p class="study-description">
-                        Advanced software development education focusing on modern programming practices, 
-                        web technologies, and software engineering principles. <strong>Diploma obtained.</strong>
-                    </p>
+                    <p class="study-description" data-en="Advanced software development education focusing on modern programming practices, web technologies, and software engineering principles. <strong>Diploma obtained.</strong>" data-nl="Geavanceerde software development opleiding gericht op moderne programmeerpraktijken, webtechnologieën en software engineering principes. <strong>Diploma behaald.</strong>">Advanced software development education focusing on modern programming practices, web technologies, and software engineering principles. <strong>Diploma obtained.</strong></p>
                     <div class="study-skills">
-                        <span class="skill-tag">Software Engineering</span>
-                        <span class="skill-tag">Web Development</span>
-                        <span class="skill-tag">Database Design</span>
-                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag" data-en="Software Engineering" data-nl="Software Engineering">Software Engineering</span>
+                        <span class="skill-tag" data-en="Web Development" data-nl="Web Development">Web Development</span>
+                        <span class="skill-tag" data-en="Database Design" data-nl="Database Ontwerp">Database Design</span>
+                        <span class="skill-tag" data-en="Project Management" data-nl="Project Management">Project Management</span>
                     </div>
                 </div>
                 <div class="study-card">
                     <div class="study-icon">
                         <i class="fas fa-gamepad"></i>
                     </div>
-                    <h3>MBO 4 Game Development</h3>
+                    <h3 data-en="MBO 4 Game Development" data-nl="MBO 4 Game Development">MBO 4 Game Development</h3>
                     <p class="study-institution">SintLucas</p>
                     <p class="study-period">2020 - May 2021</p>
-                    <p class="study-description">
-                        Comprehensive study of game development including programming, game design, 
-                        3D modeling, and interactive media creation. <strong>Diploma obtained.</strong>
-                    </p>
+                    <p class="study-description" data-en="Comprehensive study of game development including programming, game design, 3D modeling, and interactive media creation. <strong>Diploma obtained.</strong>" data-nl="Uitgebreide studie van game development inclusief programmeren, game design, 3D-modellering en interactieve media creatie. <strong>Diploma behaald.</strong>">Comprehensive study of game development including programming, game design, 3D modeling, and interactive media creation. <strong>Diploma obtained.</strong></p>
                     <div class="study-skills">
-                        <span class="skill-tag">Game Programming</span>
-                        <span class="skill-tag">Game Design</span>
+                        <span class="skill-tag" data-en="Game Programming" data-nl="Game Programming">Game Programming</span>
+                        <span class="skill-tag" data-en="Game Design" data-nl="Game Design">Game Design</span>
                         <span class="skill-tag">Unity</span>
                         <span class="skill-tag">C#</span>
-                        <span class="skill-tag">Basic 3D Modeling</span>
+                        <span class="skill-tag" data-en="Basic 3D Modeling" data-nl="Basis 3D Modellering">Basic 3D Modeling</span>
                     </div>
                 </div>
             </div>
@@ -140,66 +135,58 @@
 
     <section id="internships" class="section">
         <div class="container">
-            <h2 class="section-title">Internships</h2>
+            <h2 class="section-title" data-en="Internships" data-nl="Stages">Internships</h2>
             <div class="internships-grid">
                 <div class="internship-card">
                     <div class="internship-header daf-header">
                         <div class="internship-info">
-                            <h3>Software Developer Intern & Project Lead</h3>
+                            <h3 data-en="Software Developer Intern & Project Lead" data-nl="Software Developer Stagiair & Projectleider">Software Developer Intern & Project Lead</h3>
                             <p class="company-name"><a href="https://www.daf.com" target="_blank" rel="noopener noreferrer">DAF Trucks</a></p>
                             <p class="internship-period">February 1 - June 8, 2025</p>
                         </div>
                     </div>
                     <div class="internship-content">
-                        <p class="internship-description">
-                            Led development of an application managing all possible software variants for DAF trucks. 
-                            Worked on complex automotive software systems and gained experience in managing 
-                            large-scale software configuration and variant management.
-                        </p>
+                        <p class="internship-description" data-en="Led development of an application managing all possible software variants for DAF trucks. Worked on complex automotive software systems and gained experience in managing large-scale software configuration and variant management." data-nl="Leidde de ontwikkeling van een applicatie die alle mogelijke software-varianten voor DAF-trucks beheert. Werkte aan complexe automotive software-systemen en kreeg ervaring in het beheren van grootschalige software-configuratie en variant management.">Led development of an application managing all possible software variants for DAF trucks. Worked on complex automotive software systems and gained experience in managing large-scale software configuration and variant management.</p>
                         <div class="internship-responsibilities">
-                            <h4>Key Responsibilities:</h4>
+                            <h4 data-en="Key Responsibilities:" data-nl="Belangrijkste Verantwoordelijkheden:">Key Responsibilities:</h4>
                             <ul>
-                                <li>Led developer of a application that manages the different software possibilities</li>
-                                <li>Managed complex software configurations for different truck models</li>
-                                <li>Implemented software version control and deployment systems</li>
-                                <li>Collaborated with automotive engineers and software teams</li>
+                                <li data-en="Led developer of a application that manages the different software possibilities" data-nl="Leidde ontwikkelaar van een applicatie die de verschillende software-mogelijkheden beheert">Led developer of a application that manages the different software possibilities</li>
+                                <li data-en="Managed complex software configurations for different truck models" data-nl="Beheerde complexe software-configuraties voor verschillende truck-modellen">Managed complex software configurations for different truck models</li>
+                                <li data-en="Implemented software version control and deployment systems" data-nl="Implementeerde software versiebeheer en deployment-systemen">Implemented software version control and deployment systems</li>
+                                <li data-en="Collaborated with automotive engineers and software teams" data-nl="Samenwerkte met automotive engineers en software-teams">Collaborated with automotive engineers and software teams</li>
                             </ul>
                         </div>
                         <div class="internship-tech">
-                            <span class="tech-tag">Software Development</span>
-                            <span class="tech-tag">Variant Management</span>
-                            <span class="tech-tag">Automotive Software</span>
-                            <span class="tech-tag">Configuration Management</span>
+                            <span class="tech-tag" data-en="Software Development" data-nl="Software Development">Software Development</span>
+                            <span class="tech-tag" data-en="Variant Management" data-nl="Variant Management">Variant Management</span>
+                            <span class="tech-tag" data-en="Automotive Software" data-nl="Automotive Software">Automotive Software</span>
+                            <span class="tech-tag" data-en="Configuration Management" data-nl="Configuratie Management">Configuration Management</span>
                         </div>
                     </div>
                 </div>
                 <div class="internship-card">
                     <div class="internship-header proxy-header">
                         <div class="internship-info">
-                            <h3>PHP Frontend Developer & Database Designer Intern</h3>
+                            <h3 data-en="PHP Frontend Developer & Database Designer Intern" data-nl="PHP Frontend Developer & Database Designer Stagiair">PHP Frontend Developer & Database Designer Intern</h3>
                             <p class="company-name"><a href="https://www.proxy.nl" target="_blank" rel="noopener noreferrer">Proxy</a></p>
                             <p class="internship-period">January 2021 – May 2021</p>
                         </div>
                     </div>
                     <div class="internship-content">
-                        <p class="internship-description">
-                            Developed frontend applications using PHP and designed database structures. 
-                            Worked on web development projects focusing on user interface design and 
-                            database optimization for improved performance and user experience.
-                        </p>
+                        <p class="internship-description" data-en="Developed frontend applications using PHP and designed database structures. Worked on web development projects focusing on user interface design and database optimization for improved performance and user experience." data-nl="Ontwikkelde frontend-applicaties met PHP en ontwierp database-structuren. Werkte aan web development projecten gericht op user interface design en database-optimalisatie voor verbeterde prestaties en gebruikerservaring.">Developed frontend applications using PHP and designed database structures. Worked on web development projects focusing on user interface design and database optimization for improved performance and user experience.</p>
                         <div class="internship-responsibilities">
-                            <h4>Key Responsibilities:</h4>
+                            <h4 data-en="Key Responsibilities:" data-nl="Belangrijkste Verantwoordelijkheden:">Key Responsibilities:</h4>
                             <ul>
-                                <li>Developed responsive frontend applications using PHP</li>
-                                <li>Designed and optimized database structures and schemas</li>
-                                <li>Implemented user interface components and features</li>
-                                <li>Collaborated with backend developers on data integration</li>
+                                <li data-en="Developed responsive frontend applications using PHP" data-nl="Ontwikkelde responsieve frontend-applicaties met PHP">Developed responsive frontend applications using PHP</li>
+                                <li data-en="Designed and optimized database structures and schemas" data-nl="Ontwierp en optimaliseerde database-structuren en schema's">Designed and optimized database structures and schemas</li>
+                                <li data-en="Implemented user interface components and features" data-nl="Implementeerde user interface componenten en features">Implemented user interface components and features</li>
+                                <li data-en="Collaborated with backend developers on data integration" data-nl="Samenwerkte met backend developers aan data-integratie">Collaborated with backend developers on data integration</li>
                             </ul>
                         </div>
                         <div class="internship-tech">
                             <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">Frontend Development</span>
-                            <span class="tech-tag">Database Design</span>
+                            <span class="tech-tag" data-en="Frontend Development" data-nl="Frontend Development">Frontend Development</span>
+                            <span class="tech-tag" data-en="Database Design" data-nl="Database Ontwerp">Database Design</span>
                             <span class="tech-tag">MySQL</span>
                         </div>
                     </div>
@@ -207,31 +194,27 @@
                 <div class="internship-card">
                     <div class="internship-header asml-header">
                         <div class="internship-info">
-                            <h3>Python Developer Intern</h3>
+                            <h3 data-en="Python Developer Intern" data-nl="Python Developer Stagiair">Python Developer Intern</h3>
                             <p class="company-name"><a href="https://www.asml.com" target="_blank" rel="noopener noreferrer">ASML</a></p>
                             <p class="internship-period">August 2019 – January 2020</p>
                         </div>
                     </div>
                     <div class="internship-content">
-                        <p class="internship-description">
-                            Worked on legacy code modernization by converting Python 2 code to Python 3. 
-                            Collaborated with senior developers on critical semiconductor manufacturing software 
-                            and gained hands-on experience with large-scale code migration projects.
-                        </p>
+                        <p class="internship-description" data-en="Worked on legacy code modernization by converting Python 2 code to Python 3. Collaborated with senior developers on critical semiconductor manufacturing software and gained hands-on experience with large-scale code migration projects." data-nl="Werkte aan legacy code modernisering door Python 2 code naar Python 3 te converteren. Samenwerkte met senior developers aan kritieke semiconductor manufacturing software en kreeg hands-on ervaring met grootschalige code migratie projecten.">Worked on legacy code modernization by converting Python 2 code to Python 3. Collaborated with senior developers on critical semiconductor manufacturing software and gained hands-on experience with large-scale code migration projects.</p>
                         <div class="internship-responsibilities">
-                            <h4>Key Responsibilities:</h4>
+                            <h4 data-en="Key Responsibilities:" data-nl="Belangrijkste Verantwoordelijkheden:">Key Responsibilities:</h4>
                             <ul>
-                                <li>Converted legacy Python 2 code to Python 3 compatibility</li>
-                                <li>Updated deprecated libraries and syntax patterns</li>
-                                <li>Ensured code quality and maintained functionality during migration</li>
-                                <li>Participated in code reviews and testing procedures</li>
+                                <li data-en="Converted legacy Python 2 code to Python 3 compatibility" data-nl="Converteerde legacy Python 2 code naar Python 3 compatibiliteit">Converted legacy Python 2 code to Python 3 compatibility</li>
+                                <li data-en="Updated deprecated libraries and syntax patterns" data-nl="Update verouderde libraries en syntax patterns">Updated deprecated libraries and syntax patterns</li>
+                                <li data-en="Ensured code quality and maintained functionality during migration" data-nl="Zorgde voor code kwaliteit en behield functionaliteit tijdens migratie">Ensured code quality and maintained functionality during migration</li>
+                                <li data-en="Participated in code reviews and testing procedures" data-nl="Nam deel aan code reviews en testprocedures">Participated in code reviews and testing procedures</li>
                             </ul>
                         </div>
                         <div class="internship-tech">
                             <span class="tech-tag">Python 2</span>
                             <span class="tech-tag">Python 3</span>
-                            <span class="tech-tag">Code Migration</span>
-                            <span class="tech-tag">Legacy Systems</span>
+                            <span class="tech-tag" data-en="Code Migration" data-nl="Code Migratie">Code Migration</span>
+                            <span class="tech-tag" data-en="Legacy Systems" data-nl="Legacy Systemen">Legacy Systems</span>
                         </div>
                     </div>
                 </div>
@@ -242,33 +225,33 @@
 
     <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title" data-en="Projects" data-nl="Projecten">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header rockstar-header">
-                        <h3>Employee Happiness Analytics Tool</h3>
+                        <h3 data-en="Employee Happiness Analytics Tool" data-nl="Medewerker Geluk Analytics Tool">Employee Happiness Analytics Tool</h3>
                         <p class="project-stakeholder"><a href="https://www.teamrockstars.nl" target="_blank" rel="noopener noreferrer">Team Rockstars</a></p>
                     </div>
                     <div class="project-content">
-                        <p>Data gathering tool that collects and analyzes employee happiness metrics across different companies, developed for Rockstar as stakeholder.</p>
+                        <p data-en="Data gathering tool that collects and analyzes employee happiness metrics across different companies, developed for Rockstar as stakeholder." data-nl="Data verzameling tool die medewerker geluk metrics verzamelt en analyseert over verschillende bedrijven, ontwikkeld voor Rockstar als stakeholder.">Data gathering tool that collects and analyzes employee happiness metrics across different companies, developed for Rockstar as stakeholder.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Data Analytics</span>
-                            <span class="tech-tag">Survey Systems</span>
-                            <span class="tech-tag">Business Intelligence</span>
+                            <span class="tech-tag" data-en="Data Analytics" data-nl="Data Analytics">Data Analytics</span>
+                            <span class="tech-tag" data-en="Survey Systems" data-nl="Enquête Systemen">Survey Systems</span>
+                            <span class="tech-tag" data-en="Business Intelligence" data-nl="Business Intelligence">Business Intelligence</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-header infosupport-header">
-                        <h3>Restaurant Management System</h3>
+                        <h3 data-en="Restaurant Management System" data-nl="Restaurant Management Systeem">Restaurant Management System</h3>
                         <p class="project-stakeholder"><a href="https://www.infosupport.com/" target="_blank" rel="noopener noreferrer">Info Support</a></p>
                     </div>
                     <div class="project-content">
-                        <p>Comprehensive restaurant system serving both customers and employees, including ordering, inventory management, and staff coordination.</p>
+                        <p data-en="Comprehensive restaurant system serving both customers and employees, including ordering, inventory management, and staff coordination." data-nl="Uitgebreid restaurant systeem dat zowel klanten als medewerkers bedient, inclusief bestellingen, voorraadbeheer en personeelscoördinatie.">Comprehensive restaurant system serving both customers and employees, including ordering, inventory management, and staff coordination.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Full-Stack</span>
-                            <span class="tech-tag">Order Management</span>
-                            <span class="tech-tag">Inventory System</span>
+                            <span class="tech-tag" data-en="Full-Stack" data-nl="Full-Stack">Full-Stack</span>
+                            <span class="tech-tag" data-en="Order Management" data-nl="Bestelling Management">Order Management</span>
+                            <span class="tech-tag" data-en="Inventory System" data-nl="Voorraad Systeem">Inventory System</span>
                         </div>
                     </div>
                 </div>
@@ -279,63 +262,63 @@
 
     <section id="personality" class="section">
         <div class="container">
-            <h2 class="section-title">Professional Characteristics</h2>
+            <h2 class="section-title" data-en="Professional Characteristics" data-nl="Professionele Eigenschappen">Professional Characteristics</h2>
             <div class="personality-grid">
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-bullhorn"></i>
                     </div>
-                    <h3>Clear Communicator</h3>
-                    <p>I effectively convey complex technical concepts to both technical and non-technical stakeholders.</p>
+                    <h3 data-en="Clear Communicator" data-nl="Duidelijke Communicator">Clear Communicator</h3>
+                    <p data-en="I effectively convey complex technical concepts to both technical and non-technical stakeholders." data-nl="Ik breng complexe technische concepten effectief over naar zowel technische als niet-technische stakeholders.">I effectively convey complex technical concepts to both technical and non-technical stakeholders.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <h3>Team Collaborator</h3>
-                    <p>I thrive in collaborative environments, valuing diverse perspectives from others and building strong team relationships.</p>
+                    <h3 data-en="Team Collaborator" data-nl="Team Samenwerker">Team Collaborator</h3>
+                    <p data-en="I thrive in collaborative environments, valuing diverse perspectives from others and building strong team relationships." data-nl="Ik gedij in collaboratieve omgevingen, waardeer diverse perspectieven van anderen en bouw sterke team-relaties op.">I thrive in collaborative environments, valuing diverse perspectives from others and building strong team relationships.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <h3>Continuous Learner</h3>
-                    <p>I'm passionate about lifelong learning, constantly seeking new knowledge and skills to grow professionally.</p>
+                    <h3 data-en="Continuous Learner" data-nl="Continue Leerder">Continuous Learner</h3>
+                    <p data-en="I'm passionate about lifelong learning, constantly seeking new knowledge and skills to grow professionally." data-nl="Ik ben gepassioneerd over levenslang leren, constant op zoek naar nieuwe kennis en vaardigheden om professioneel te groeien.">I'm passionate about lifelong learning, constantly seeking new knowledge and skills to grow professionally.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-comments"></i>
                     </div>
-                    <h3>Feedback-Driven</h3>
-                    <p>I actively seek and value feedback from others, using it constructively to improve both my work and personal growth.</p>
+                    <h3 data-en="Feedback-Driven" data-nl="Feedback-Gedreven">Feedback-Driven</h3>
+                    <p data-en="I actively seek and value feedback from others, using it constructively to improve both my work and personal growth." data-nl="Ik zoek actief naar en waardeer feedback van anderen, gebruik het constructief om zowel mijn werk als persoonlijke groei te verbeteren.">I actively seek and value feedback from others, using it constructively to improve both my work and personal growth.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-rocket"></i>
                     </div>
-                    <h3>Initiative and Leadership</h3>
-                    <p>I take initiative in identifying opportunities and driving projects forward.</p>
+                    <h3 data-en="Initiative and Leadership" data-nl="Initiatief en Leiderschap">Initiative and Leadership</h3>
+                    <p data-en="I take initiative in identifying opportunities and driving projects forward." data-nl="Ik neem initiatief in het identificeren van kansen en het vooruitdrijven van projecten.">I take initiative in identifying opportunities and driving projects forward.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-balance-scale"></i>
                     </div>
-                    <h3>Ethical Development</h3>
-                    <p>I prioritize ethical considerations in all my work, ensuring responsible and sustainable development practices.</p>
+                    <h3 data-en="Ethical Development" data-nl="Ethische Ontwikkeling">Ethical Development</h3>
+                    <p data-en="I prioritize ethical considerations in all my work, ensuring responsible and sustainable development practices." data-nl="Ik prioriteer ethische overwegingen in al mijn werk, zorg voor verantwoorde en duurzame ontwikkelingspraktijken.">I prioritize ethical considerations in all my work, ensuring responsible and sustainable development practices.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-lightbulb"></i>
                     </div>
-                    <h3>Creative Problem Solver</h3>
-                    <p>I approach challenges with creativity and innovation, always looking for unique solutions.</p>
+                    <h3 data-en="Creative Problem Solver" data-nl="Creatieve Probleemoplosser">Creative Problem Solver</h3>
+                    <p data-en="I approach challenges with creativity and innovation, always looking for unique solutions." data-nl="Ik ga uitdagingen aan met creativiteit en innovatie, altijd op zoek naar unieke oplossingen.">I approach challenges with creativity and innovation, always looking for unique solutions.</p>
                 </div>
                 <div class="personality-card">
                     <div class="personality-icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <h3>Detail-Oriented</h3>
-                    <p>I pay attention to the smallest details while maintaining focus on the bigger picture and overall goals.</p>
+                    <h3 data-en="Detail-Oriented" data-nl="Detail-Gericht">Detail-Oriented</h3>
+                    <p data-en="I pay attention to the smallest details while maintaining focus on the bigger picture and overall goals." data-nl="Ik let op de kleinste details terwijl ik focus behoud op het grotere plaatje en algemene doelen.">I pay attention to the smallest details while maintaining focus on the bigger picture and overall goals.</p>
                 </div>
             </div>
         </div>
@@ -344,41 +327,39 @@
 
     <section id="timeline" class="section">
         <div class="container">
-            <h2 class="section-title">Current Trajectory</h2>
-            <p class="timeline-description">
-                My planned educational journey and career development path in cybersecurity.
-            </p>
+            <h2 class="section-title" data-en="Current Trajectory" data-nl="Huidige Traject">Current Trajectory</h2>
+            <p class="timeline-description" data-en="My planned educational journey and career development path in cybersecurity." data-nl="Mijn geplande educatieve reis en carrière ontwikkelingspad in cybersecurity.">My planned educational journey and career development path in cybersecurity.</p>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3>Cybersecurity Essentials</h3>
+                        <h3 data-en="Cybersecurity Essentials" data-nl="Cybersecurity Essentials">Cybersecurity Essentials</h3>
                         <p class="timeline-period">Sep 2025 - Feb 2026</p>
-                        <p>Foundation course covering basic cybersecurity principles, network security, and threat awareness.</p>
+                        <p data-en="Foundation course covering basic cybersecurity principles, network security, and threat awareness." data-nl="Basis cursus die fundamentele cybersecurity-principes, netwerkbeveiliging en bedreigingsbewustzijn behandelt.">Foundation course covering basic cybersecurity principles, network security, and threat awareness.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3>Cybersecurity Professional</h3>
+                        <h3 data-en="Cybersecurity Professional" data-nl="Cybersecurity Professional">Cybersecurity Professional</h3>
                         <p class="timeline-period">Mar 2026 - Aug 2026</p>
-                        <p>Advanced cybersecurity training.</p>
+                        <p data-en="Advanced cybersecurity training." data-nl="Geavanceerde cybersecurity training.">Advanced cybersecurity training.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3>Minor in Intelligence & Counter Intelligence</h3>
+                        <h3 data-en="Minor in Intelligence & Counter Intelligence" data-nl="Minor in Intelligence & Counter Intelligence">Minor in Intelligence & Counter Intelligence</h3>
                         <p class="timeline-period">Sep 2026 - Feb 2027</p>
-                        <p>Specialized study in intelligence gathering, analysis, and counter-intelligence operations.</p>
+                        <p data-en="Specialized study in intelligence gathering, analysis, and counter-intelligence operations." data-nl="Gespecialiseerde studie in intelligence gathering, analyse en counter-intelligence operaties.">Specialized study in intelligence gathering, analysis, and counter-intelligence operations.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <h3>Cybersecurity Internship</h3>
+                        <h3 data-en="Cybersecurity Internship" data-nl="Cybersecurity Stage">Cybersecurity Internship</h3>
                         <p class="timeline-period">Mar 2027 - Aug 2027</p>
-                        <p>Practical experience in cybersecurity operations.</p>
+                        <p data-en="Practical experience in cybersecurity operations." data-nl="Praktische ervaring in cybersecurity operaties.">Practical experience in cybersecurity operations.</p>
                     </div>
                 </div>
             </div>
@@ -388,42 +369,42 @@
 
     <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title">My Skills</h2>
+            <h2 class="section-title" data-en="My Skills" data-nl="Mijn Vaardigheden">My Skills</h2>
             
 
             <div class="skills-category">
                 <h3 class="category-title">
                     <i class="fas fa-code"></i>
-                    Programming Languages
+                    <span data-en="Programming Languages" data-nl="Programmeertalen">Programming Languages</span>
                 </h3>
-                <p class="skills-summary">Strong foundation in multiple programming languages including JavaScript, Python, and Java. Experienced in both frontend and backend development with focus on modern development practices including test-driven development and complex algorithms. Quick learner of new technologies and languages.</p>
+                <p class="skills-summary" data-en="Strong foundation in multiple programming languages including JavaScript, Python, and Java. Experienced in both frontend and backend development with focus on modern development practices including test-driven development and complex algorithms. Quick learner of new technologies and languages." data-nl="Sterke basis in meerdere programmeertalen inclusief JavaScript, Python en Java. Ervaren in zowel frontend als backend development met focus op moderne ontwikkelingspraktijken inclusief test-driven development en complexe algoritmes. Snelle leerling van nieuwe technologieën en talen.">Strong foundation in multiple programming languages including JavaScript, Python, and Java. Experienced in both frontend and backend development with focus on modern development practices including test-driven development and complex algorithms. Quick learner of new technologies and languages.</p>
             </div>
 
 
             <div class="skills-category">
                 <h3 class="category-title">
                     <i class="fas fa-globe"></i>
-                    Web Technologies
+                    <span data-en="Web Technologies" data-nl="Web Technologieën">Web Technologies</span>
                 </h3>
-                <p class="skills-summary">Proficient in modern full stack web development technologies including HTML/CSS, React, Node.js, and Vue.js. Experienced in building responsive, scalable web applications.</p>
+                <p class="skills-summary" data-en="Proficient in modern full stack web development technologies including HTML/CSS, React, Node.js, and Vue.js. Experienced in building responsive, scalable web applications." data-nl="Bekwaam in moderne full stack web development technologieën inclusief HTML/CSS, React, Node.js en Vue.js. Ervaren in het bouwen van responsieve, schaalbare web-applicaties.">Proficient in modern full stack web development technologies including HTML/CSS, React, Node.js, and Vue.js. Experienced in building responsive, scalable web applications.</p>
             </div>
 
 
             <div class="skills-category">
                 <h3 class="category-title">
                     <i class="fas fa-database"></i>
-                    Databases
+                    <span data-en="Databases" data-nl="Databases">Databases</span>
                 </h3>
-                <p class="skills-summary">Experienced with relational databases including MySQL and Entity Framework. Skilled in database design, optimization, and management.</p>
+                <p class="skills-summary" data-en="Experienced with relational databases including MySQL and Entity Framework. Skilled in database design, optimization, and management." data-nl="Ervaren met relationele databases inclusief MySQL en Entity Framework. Bekwaam in database-ontwerp, optimalisatie en beheer.">Experienced with relational databases including MySQL and Entity Framework. Skilled in database design, optimization, and management.</p>
             </div>
 
 
             <div class="skills-category">
                 <h3 class="category-title">
                     <i class="fas fa-tools"></i>
-                    Tools & Technologies
+                    <span data-en="Tools & Technologies" data-nl="Tools & Technologieën">Tools & Technologies</span>
                 </h3>
-                <p class="skills-summary">Proficient in essential development tools including Git for version control, Docker for containerization, and CI/CD pipelines.</p>
+                <p class="skills-summary" data-en="Proficient in essential development tools including Git for version control, Docker for containerization, and CI/CD pipelines." data-nl="Bekwaam in essentiële development tools inclusief Git voor versiebeheer, Docker voor containerisatie en CI/CD pipelines.">Proficient in essential development tools including Git for version control, Docker for containerization, and CI/CD pipelines.</p>
             </div>
 
 
@@ -433,29 +414,29 @@
 
     <section id="hobbies" class="section">
         <div class="container">
-            <h2 class="section-title">My Hobbies</h2>
+            <h2 class="section-title" data-en="My Hobbies" data-nl="Mijn Hobby's">My Hobbies</h2>
             <div class="hobbies-grid">
                 <div class="hobby-card">
                     <div class="hobby-icon">
                         <i class="fas fa-futbol"></i>
                     </div>
-                    <h3>Sport</h3>
-                    <p>I enjoy staying active through various sports activities. It helps me maintain physical fitness.</p>
+                    <h3 data-en="Sport" data-nl="Sport">Sport</h3>
+                    <p data-en="I enjoy staying active through various sports activities. It helps me maintain physical fitness." data-nl="Ik geniet van actief blijven door verschillende sportactiviteiten. Het helpt me om fysieke fitheid te behouden.">I enjoy staying active through various sports activities. It helps me maintain physical fitness.</p>
                     <div class="hobby-details">
                         <span class="hobby-tag">Gym</span>
-                        <span class="hobby-tag">Running</span>
-                        <span class="hobby-tag">Swimming</span>
+                        <span class="hobby-tag" data-en="Running" data-nl="Hardlopen">Running</span>
+                        <span class="hobby-tag" data-en="Swimming" data-nl="Zwemmen">Swimming</span>
                     </div>
                 </div>
                 <div class="hobby-card">
                     <div class="hobby-icon">
                         <i class="fas fa-gamepad"></i>
                     </div>
-                    <h3>Gaming</h3>
-                    <p>I enjoy playing video games, especially strategy and RPG games. It helps me develop problem-solving skills and strategic thinking.</p>
+                    <h3 data-en="Gaming" data-nl="Gaming">Gaming</h3>
+                    <p data-en="I enjoy playing video games, especially strategy and RPG games. It helps me develop problem-solving skills and strategic thinking." data-nl="Ik geniet van het spelen van videogames, vooral strategie en RPG games. Het helpt me om probleemoplossende vaardigheden en strategisch denken te ontwikkelen.">I enjoy playing video games, especially strategy and RPG games. It helps me develop problem-solving skills and strategic thinking.</p>
                     <div class="hobby-details">
-                        <span class="hobby-tag">Strategy Games</span>
-                        <span class="hobby-tag">Multiplayer</span>
+                        <span class="hobby-tag" data-en="Strategy Games" data-nl="Strategie Games">Strategy Games</span>
+                        <span class="hobby-tag" data-en="Multiplayer" data-nl="Multiplayer">Multiplayer</span>
                     </div>
                 </div>
             </div>
@@ -467,8 +448,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Get In Touch</h3>
-                    <p>Coming soon!</p>
+                    <h3 data-en="Get In Touch" data-nl="Neem Contact Op">Get In Touch</h3>
+                    <p data-en="Coming soon!" data-nl="Binnenkort beschikbaar!">Coming soon!</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-github"></i></a>
@@ -479,7 +460,7 @@
 
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 My Curriculum Vitae. All rights reserved.</p>
+                <p data-en="&copy; 2025 My Curriculum Vitae. All rights reserved." data-nl="&copy; 2025 Mijn Curriculum Vitae. Alle rechten voorbehouden.">&copy; 2025 My Curriculum Vitae. All rights reserved.</p>
             </div>
         </div>
     </footer>

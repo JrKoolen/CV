@@ -1,3 +1,54 @@
+// Language switching functionality
+let currentLanguage = 'en';
+
+function switchLanguage(lang) {
+    currentLanguage = lang;
+    
+    // Update all elements with data attributes
+    const elements = document.querySelectorAll('[data-en][data-nl]');
+    elements.forEach(element => {
+        if (element.hasAttribute(`data-${lang}`)) {
+            const newText = element.getAttribute(`data-${lang}`);
+            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                element.value = newText;
+            } else {
+                element.innerHTML = newText;
+            }
+        }
+    });
+    
+    // Update document title
+    const title = document.querySelector('title');
+    if (title && title.hasAttribute(`data-${lang}`)) {
+        title.textContent = title.getAttribute(`data-${lang}`);
+    }
+    
+    // Update language buttons
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
+    
+    // Store language preference
+    localStorage.setItem('preferredLanguage', lang);
+}
+
+// Initialize language switcher
+document.addEventListener('DOMContentLoaded', () => {
+    // Check for stored language preference
+    const storedLang = localStorage.getItem('preferredLanguage');
+    if (storedLang) {
+        switchLanguage(storedLang);
+    }
+    
+    // Add event listeners to language buttons
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.getAttribute('data-lang');
+            switchLanguage(lang);
+        });
+    });
+});
 
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
